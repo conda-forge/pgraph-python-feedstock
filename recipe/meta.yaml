@@ -1,5 +1,5 @@
 {% set name = "pgraph-python" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pgraph-python-{{ version }}.tar.gz
-  sha256: 4db5c42f2b897b6a66d16336e769404bc596783c1ac69ee0dde23755cb7e834a
+  sha256: 4abad7ded90677e4d1fc8317de298c7068942f8b289ec9a58bf3d36d666e70cf
 
 build:
   number: 0
