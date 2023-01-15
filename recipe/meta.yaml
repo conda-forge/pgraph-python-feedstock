@@ -21,6 +21,7 @@ requirements:
     - python >=3.6
   run:
     - matplotlib-base
+    - spatialmath-python
     - numpy
     - python >=3.6
 
