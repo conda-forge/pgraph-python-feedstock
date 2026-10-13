@@ -1,5 +1,5 @@
 {% set name = "pgraph-python" %}
-{% set version = "0.6.5" %}
+{% set version = "1.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2462d0fd6a7278779f37fc8a582d1817ab6930c4a2b83cad0ee93256637f7f76
+  sha256: f5bc1c3ecc3c11cc3619e7a8bd82ad1bf17bf3888ffb7c06b1709cd010f7d407
 
 build:
   number: 0
